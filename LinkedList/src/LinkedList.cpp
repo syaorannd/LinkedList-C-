@@ -25,5 +25,8 @@ int main() {
 	pList->deletePosition(2);
 	pList->Display();
 	pList->findData(2222);
+	pList->findData(20);
+	delete pList;
+	pList = NULL;
 	return 0;
 }
